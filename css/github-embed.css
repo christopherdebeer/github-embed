@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.github-embed {
+    border: 1px solid #ddd;
+    background-color: white;
+    overflow: auto;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin: 5px 0;
+    position: absolute;
+    top: 0;
+    bottom: 1.5em;
+    left: 0;
+    right: 0;
+}
+.github-embed .placeholder {
+    text-align: center;
+    padding: 1em;
+    display: block;
+    color: #999;
+}
+.github-embed .placeholder a {
+    text-decoration: none;
+}
+.github-embed pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.github-embed .markdown {
+    font-family: sans-serif;
+    padding: 1em;
+    overflow: auto;
+}
+.github-embed .markdown pre code {
+    padding: 1em;
+}
+
+.github-embed .markdown code {
+    background-color: #f8f8f8;
+    padding: 0em 0.4em;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+}
+.github-embed .markdown a { text-decoration: none; }
+
+.github-embed .footer {
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-top: 0 none;
+    overflow: auto;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0.4em;
+    color: #999;
+    margin: 0;
+    background-color: #f8f8f8;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+.github-embed a {
+    text-decoration: none;
+    color: #4da7ca;
+}
+.github-embed a:visited {
+    color: #4da7ca;
+}
+.github-embed a:hover {
+    color: #4da7ca;
+    text-decoration: underline;
+}
+.github-embed .footer .left { float: left; }
+.github-embed .footer .right { float: right; }
+
+@media (max-width: 600px) {
+    .github-embed .footer .left,
+    .github-embed .footer .right { 
+        float: none;
+        display: block;
+    }
+    .github-embed { bottom: 2.5em; }
+}
+
+.github-embed .hljs {
+    padding: 0;
+    overflow: auto;
+}
+.github-embed .hljs pre {
+    padding: 1em;
+}
