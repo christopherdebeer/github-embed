@@ -21,7 +21,7 @@ $(function(){
         rawURL = githubURL.replace( /(https?:\/\/github\.com\/)/, '//rawgit.com/').replace('/blob/', '/')
 
     var $footer = $('<p class="footer" />').html('<span class="left">Check out the <a target="_blank" href="' + githubURL + '">source on github.com</a></span><span class="right"><a href="http://github.com/christopherdebeer/github-embed">github-embed</a> is not allifiated with github.com</span>'),
-        $placeholder = $('<div class="placeholder">Loading <a href="#failed_to_parse_url">content</a> from GitHub...</div>'),
+        $placeholder = $('<div class="placeholder">Loading <a target="_blank" href="#failed_to_parse_url">content</a> from GitHub...</div>'),
         $el = $('<div class="github-embed"/>')
         $('body').append( $el )
 
