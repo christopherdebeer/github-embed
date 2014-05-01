@@ -4,6 +4,10 @@ Easily embed documents from github.com into any web page as content, whether it 
 
 Github Repo: [https://github.com/christopherdebeer/github-embed](https://github.com/christopherdebeer/github-embed)
 
+###Example
+
+Heres an example page that shows how it might look on a foriegn website: [Example Page](http://christopherdebeer.github.io/github-embed/example.html)
+
 Infact this project's homepage is rendered in exactly the same way, by visiting [the homepage](http://christopherdebeer.github.io/github-embed/) and not adding a url parameter to the end, it defaults to showing it's own `README.md` markdown file from github.com - neat.
 
 ##Usage
