@@ -39,6 +39,12 @@ $(function(){
             hljs.highlightBlock( $code[0] )
         }
         $el.append( $footer )
+
+        $el.find('a').each( function(i, el){
+            var $link = $(el)
+            var target = $link.attr( 'target' )
+            if (target !== '_blank') $link.attr( 'target', '_parent' )
+        })
     })  
     
 })
